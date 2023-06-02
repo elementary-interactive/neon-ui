@@ -23,7 +23,7 @@
     "extra": {
       "laravel": {
         "providers": [
-          "Neon\\ui\\NeonUiServiceProvider"
+          "Neon\\Ui\\NeonUiServiceProvider"
         ]
       }
     },
