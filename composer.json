@@ -12,7 +12,7 @@
     ],
     "autoload": {
       "psr-4": {
-        "Neon\\": "src/"
+        "Neon\\Ui": "src/"
       }
     },
     "autoload-dev": {
@@ -23,7 +23,7 @@
     "extra": {
       "laravel": {
         "providers": [
-          "Neon\\NeonUiServiceProvider"
+          "Neon\\ui\\NeonUiServiceProvider"
         ]
       }
     },
