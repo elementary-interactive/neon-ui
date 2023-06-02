@@ -1,0 +1,36 @@
+{
+    "name": "neon/ui",
+    "version": "0.1.0-alpha",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Balázs Ercsey",
+        "email": "balazs.ercsey@elementary-interactive.com"
+      }
+    ],
+    "autoload": {
+      "psr-4": {
+        "Neon\\": "src/"
+      }
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "Neon\\Tests\\": "tests/"
+      }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Neon\\NeonUiServiceProvider"
+        ]
+      }
+    },
+    "require": {
+      "php": "^8.0",
+      "laravel/framework": "^10.0"
+    },
+    "repositories": {},
+    "branch-alias": {}
+  }
