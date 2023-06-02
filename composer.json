@@ -12,7 +12,7 @@
     ],
     "autoload": {
       "psr-4": {
-        "Neon\\Ui": "src/"
+        "Neon\\Ui\\": "src/"
       }
     },
     "autoload-dev": {
